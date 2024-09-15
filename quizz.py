@@ -12,7 +12,7 @@ bot_token = '7518438812:AAF29rspjnbm48FQMZXJBCTOL1U5HOUJC-4'
 # Quiz states
 (ASK_NAME, ASK_QUESTION_TYPE, ASK_QUESTION, ASK_OPTIONS, ASK_ANSWER, ASK_TIME_GAP, ADD_MORE_QUESTIONS, ASK_START_TIMER) = range(8)
 
-# Quiz management
+# Quiz management you can edit like this easily
 quizzes = {}  # Store quizzes globally for all users, track their data
 quiz_participants = {}  # Track group participants and their answers/timing
 quiz_results = {}  # Store quiz results for the creator
